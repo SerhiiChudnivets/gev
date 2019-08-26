@@ -15,16 +15,14 @@
 <div class="popup">
     <div class="feedback">
         <img src="img/close.png" alt="" class="popup__close-btn close__btn" >
-        <form>
-            <input type="hidden" name="project_name" value="Site Name">
-            <input type="hidden" name="admin_email" value="serhiichunivets@mail.com">
-            <input type="hidden" name="form_subject" value="Form Subject">
+        <form action="mail.php" method="post">
+
             <span class="feedback__title">ЗАПОЛНИТЕ ФОРМУ И МЫ ВАМ СРАЗУ ЖЕ ПЕРЕЗВОНИМ</span>
             <div class="row mb-60 d-flex justify-content-center">
                 <div class="col-md-7 col-12">
 
                     <label for="name">
-                        <input type="text" class="feedback__input " placeholder="ФИО" name="user_name" id="name">
+                        <input type="text" class="feedback__input " placeholder="ФИО" name="user_name" id="popup_name">
 
                         <img src="img/name.png" alt="" class="labels__inputs">
                     </label>
@@ -33,7 +31,7 @@
             <div class="row mb-85 d-flex justify-content-center">
                 <div class="col-md-7 col-12">
                     <label for="phone">
-                        <input type="text" class="feedback__input" placeholder="Номер телефона" name="user_phone" id="phone">
+                        <input type="text" class="feedback__input" placeholder="Номер телефона" name="user_phone" id="popup_phone">
 
                         <img src="img/phone.png" alt="" class="labels__inputs">
                     </label>
@@ -578,10 +576,8 @@
     </div>
 </section>
 <div class="feedback">
-    <form>
-        <input type="hidden" name="project_name" value="Site Name">
-        <input type="hidden" name="admin_email" value="serhiichunivets@mail.com">
-        <input type="hidden" name="form_subject" value="Form Subject">
+    <form action="mail.php" method="post">
+
     <span class="feedback__title">ЗАПОЛНИТЕ ФОРМУ И МЫ ВАМ СРАЗУ ЖЕ ПЕРЕЗВОНИМ</span>
     <div class="row mb-60 d-flex justify-content-center">
         <div class="col-md-7 col-12">
