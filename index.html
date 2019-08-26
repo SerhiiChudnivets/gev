@@ -1,0 +1,686 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="vendor/slick.css">
+    <link rel="stylesheet" href="vendor/slick-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="popup">
+    <div class="feedback">
+        <img src="img/close.png" alt="" class="popup__close-btn close__btn" >
+        <form>
+            <input type="hidden" name="project_name" value="Site Name">
+            <input type="hidden" name="admin_email" value="serhiichunivets@mail.com">
+            <input type="hidden" name="form_subject" value="Form Subject">
+            <span class="feedback__title">ЗАПОЛНИТЕ ФОРМУ И МЫ ВАМ СРАЗУ ЖЕ ПЕРЕЗВОНИМ</span>
+            <div class="row mb-60 d-flex justify-content-center">
+                <div class="col-md-7 col-12">
+
+                    <label for="name">
+                        <input type="text" class="feedback__input " placeholder="ФИО" name="user_name" id="name">
+
+                        <img src="img/name.png" alt="" class="labels__inputs">
+                    </label>
+                </div>
+            </div>
+            <div class="row mb-85 d-flex justify-content-center">
+                <div class="col-md-7 col-12">
+                    <label for="phone">
+                        <input type="text" class="feedback__input" placeholder="Номер телефона" name="user_phone" id="phone">
+
+                        <img src="img/phone.png" alt="" class="labels__inputs">
+                    </label>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <button class="feedback__btn done">ОСТАВИТЬ ЗАЯВКУ</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<section class="mobile__menu">
+    <div class="mobile__menu-close">
+        <img src="img/2-layers.png" class="mobile__menu-close-img" alt="">
+    </div>
+    <div class="mobile__menu-logo">
+        <img src="img/for__mobile.png" class="mobile__menu-logo-img">
+
+    </div>
+    <div class="mobile__menu-items">
+        <li class="mobile__menu-item">
+            <a href="#service" class="mobile__menu-link">Услуги</a>
+        </li>
+        <li class="mobile__menu-item">
+            <a href="#price" class="mobile__menu-link">Прайс</a>
+        </li>
+        <li class="mobile__menu-item">
+            <a href="#case" class="mobile__menu-link">Кейсы</a>
+        </li>
+        <li class="mobile__menu-item">
+            <a href="#stats" class="mobile__menu-link">Цифры</a>
+        </li>
+
+    </div>
+</section>
+<header class="header">
+    <video width="100%" height="auto" preload="auto" autoplay="autoplay"  loop="loop" poster="img/Video.jpg" class="header__bg">
+        <source src="img/meet.mp4" type="video/mp4">
+    </video>
+    <div class="burger">
+        <div class="burger__lines"></div>
+        <div class="burger__lines middle__line"></div>
+        <div class="burger__lines"></div>
+    </div>
+    <div class="navigation">
+        <img class="logo__img" src="img/LOGO_gevis_main.png">
+        <div class="menu">
+            <ul class="menu__items">
+                <li class="menu__item"><a href="#service" class="menu__item-link">Услуги</a>
+                    <div class="yellow__label"></div>
+                </li>
+                <li class="menu__item"><a href="#price" class="menu__item-link">Прайс</a>
+                    <div class="yellow__label"></div>
+                </li>
+                <li class="menu__item"><a href="#team" class="menu__item-link">Наша команда</a>
+                    <div class="yellow__label"></div>
+                </li>
+                <li class="menu__item"><a href="#case" class="menu__item-link">Наши кейсы</a>
+                    <div class="yellow__label"></div>
+                </li>
+                <li class="menu__item"><a href="#stats" class="menu__item-link">Цифры</a>
+                    <div class="yellow__label"></div>
+                </li>
+                <li class="menu__item"><a href="#about_us" class="menu__item-link">О нас</a>
+                    <div class="yellow__label"></div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <h1 class="header__title">
+        ЕСТЬ БИЗНЕС, НО НЕТ ПРОДАЖ?
+        ДЕЙСТВУЙ!
+    </h1>
+    <span class="header__description">Команда профессиональных маркетологов
+выведет Ваш бизнес на новый уровень!</span>
+    <button class="header__btn open-popup">ЗАКАЗАТЬ ОБРАТНЫЙ ЗВОНОК</button>
+</header>
+<section class="main" id="service">
+    <h2 class="main__title">НАШИ УСЛУГИ</h2>
+    <div class="slider__laptop slider__mobile">
+        <div class="main__card">
+            <img class="main__card-img" src="img/first.svg">
+            <span class="main__card-title">SEO-оптимизация
+</span>
+            <p class="main__card-description">Проведение полного цикла работ, направленного на улучшение видимости
+                сайта в органическом поиске.
+            </p>
+        </div>
+        <div class="main__card">
+            <img class="main__card-img" src="img/second.svg">
+            <span class="main__card-title">Копирайтинг
+</span>
+            <p class="main__card-description">Хороший текст — это половина успеха. Наши копирайтеры пишут
+                эффективные тексты, которые привлекают внимание потенциальных клиентов.
+            </p>
+        </div>
+        <div class="main__card">
+            <img class="main__card-img" src="img/third.svg">
+            <span class="main__card-title">Разработка дизайна
+
+</span>
+            <p class="main__card-description">К каждому клиенту индивидуальный подход. Мы создаем рекламные афиши,
+                логотипы и брендбуки. Разрабатываем фирменный стиль, а также оформляем страницы в соцсетях.
+            </p>
+        </div>
+        <div class="main__card">
+            <img class="main__card-img" src="img/fourth.svg">
+            <span class="main__card-title">Фотоконтент
+</span>
+            <p class="main__card-description">Проводим фотосессии, обеспечиваем качественным фотоконтентом для
+                создания красивых страниц в социальных сетях.
+            </p>
+        </div>
+        <div class="main__card">
+            <img class="main__card-img" src="img/fifth.svg">
+            <span class="main__card-title">Контекстная реклама
+
+</span>
+            <p class="main__card-description">Создадим мгновенный поток целевого трафика с Google/Яндекс.Ваш сайт
+                посетят только заинтересованные в Вашей услуге/товаре люди.
+
+
+            </p>
+        </div>
+        <div class="main__card">
+            <img class="main__card-img" src="img/sixth.svg">
+            <span class="main__card-title">SMM продвижение
+
+</span>
+            <p class="main__card-description">Сформируем положительный имидж и наладим продажи товаров и услуг в
+                самых популярных социальных сетях (Facebook, Instagram, VK).
+            </p>
+        </div>
+
+    </div>
+    <div class="row main__cards">
+        <div class="col-4">
+            <div class="main__card">
+                <img class="main__card-img" src="img/first.svg">
+                <span class="main__card-title">SEO-оптимизация
+</span>
+                <p class="main__card-description">Проведение полного цикла работ, направленного на улучшение видимости
+                    сайта в органическом поиске.
+                </p>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="main__card">
+                <img class="main__card-img" src="img/second.svg">
+                <span class="main__card-title">Копирайтинг
+</span>
+                <p class="main__card-description">Хороший текст — это половина успеха. Наши копирайтеры пишут
+                    эффективные тексты, которые привлекают внимание потенциальных клиентов.
+                </p>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="main__card">
+                <img class="main__card-img" src="img/third.svg">
+                <span class="main__card-title">Разработка дизайна
+
+</span>
+                <p class="main__card-description">К каждому клиенту индивидуальный подход. Мы создаем рекламные афиши,
+                    логотипы и брендбуки. Разрабатываем фирменный стиль, а также оформляем страницы в соцсетях.
+                </p>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="main__card">
+                <img class="main__card-img" src="img/fourth.svg">
+                <span class="main__card-title">Фотоконтент
+</span>
+                <p class="main__card-description">Проводим фотосессии, обеспечиваем качественным фотоконтентом для
+                    создания красивых страниц в социальных сетях.
+                </p>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="main__card">
+                <img class="main__card-img" src="img/fifth.svg">
+                <span class="main__card-title">Контекстная реклама
+
+</span>
+                <p class="main__card-description">Создадим мгновенный поток целевого трафика с Google/Яндекс.Ваш сайт
+                    посетят только заинтересованные в Вашей услуге/товаре люди.
+
+
+                </p>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="main__card">
+                <img class="main__card-img" src="img/sixth.svg">
+                <span class="main__card-title">SMM продвижение
+
+</span>
+                <p class="main__card-description">Сформируем положительный имидж и наладим продажи товаров и услуг в
+                    самых популярных социальных сетях (Facebook, Instagram, VK).
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+</section>
+<section class="price" id="price">
+    <div class="price__container">
+        <div class="price__header">
+            ПРАЙС
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-12 mb-32-xs">
+                <div class="price__item">
+                    <div>
+
+            <span class="price__item-header">
+                SEO оптимизация:
+            </span>
+                        <ul class="price__item-list">
+                            <li>
+                                Технический аудит сайта
+                            </li>
+                            <li> Сбор семантического ядра
+                            </li>
+                            <li> Разработка и внедрение контент плана
+                            </li>
+                            <li> Наращивание ссылочной массы
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="price__item-cost"> от 7500 грн в месяц</div>
+                </div>
+            </div>
+            <div class="col-md-4 col-12 mb-32-xs">
+                <div class="price__item">
+                    <div>
+
+            <span class="price__item-header">
+               Фотосессия:
+            </span>
+
+                        <ul class="price__item-list">
+                            <li>
+                                Составление плана фотосессии
+
+                            </li>
+                            <li>
+                                Сьемка профессиональным фотографом
+
+                            </li>
+                            <li>
+                                Ретушь фотографий
+
+                            </li>
+                            <li>
+                                Результат до 100 фотографий
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="price__item-cost"> от 800 грн за фотосет</div>
+                </div>
+
+            </div>
+            <div class="col-md-4 col-12 mb-32-xs">
+                <div class="price__item">
+                    <div>
+
+            <span class="price__item-header">
+             Разработка дизайна:
+
+            </span>
+                        <ul class="price__item-list">
+                            <li>
+                                создание креативов
+
+                            </li>
+                            <li>
+                                создание уникального дизайна
+
+                            </li>
+                            <li>
+                                профиля в социальных сетях
+
+                            </li>
+                            <li> ребрендинг
+
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="price__item-cost"> От 150 грн</div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row mt-60">
+            <div class="col-md-4 col-12 mb-32-xs">
+                <div class="price__item">
+                    <div>
+
+            <span class="price__item-header">
+           SММ продвижение
+
+            </span>
+
+
+                        <ul class="price__item-list">
+                            <li>
+                                Написание рубрикатора и контент плана
+
+                            </li>
+                            <li> Составление медиа-плана
+                            </li>
+                            <li> Ежедневная публикация в Instagram и Facebook
+                            </li>
+                            <li> Запуск таргетированной рекламы
+                            </li>
+                            <li> Тесная связь с аудиторией (Giveaway,розыгрыши)
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="price__item-cost">от 8000 грн/месяц</div>
+                </div>
+            </div>
+            <div class="col-md-4 col-12 mb-32-xs">
+                <div class="price__item">
+                    <div>
+
+            <span class="price__item-header">
+               Контекстная реклама
+
+            </span>
+                        <ul class="price__item-list">
+                            <li>
+                                Настройка рекламы в Гугл и Яндекс
+
+                            </li>
+                            <li> Отчет о проведении рекламной кампании
+
+                            </li>
+                            <li> Сопровождение рекламной кампании в течение месяца
+
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="price__item-cost"> от 4000 грн</div>
+                </div>
+
+            </div>
+            <div class="col-md-4 col-12 mb-32-xs">
+                <div class="price__item">
+                    <div>
+
+            <span class="price__item-header">
+Таргетированная реклама
+            </span>
+                        <ul class="price__item-list">
+                            <li>
+                                Составление медиа-плана
+
+                            </li>
+                            <li> Создание рекламной стратегии
+
+                            </li>
+                            <li> Сопровождение рекламной кампании в течение месяца
+
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="price__item-cost">от 3000 грн/месяц</div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row mt-54">
+            <div class="col-12">
+                <button class="feedback__btn open-popup">ОСТАВИТЬ ЗАЯВКУ</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="persons" id="team">
+    <span class="persons__title">
+        НАША КОМАНДА
+    </span>
+    <div class="persons__list">
+        <div class="persons__item">
+            <img src="./img/first_persons.png" alt="" class="persons__photo">
+            <span class="persons__item-name">Сергей</span>
+            <span class="persons__item-desctription">Имеет 2 диплома в сфере digital-маркетинга, стаж более 2 лет. Обладает аналитическим складом ума и креативным мышлением. Это именно тот человек ,который знает как увеличить продажи в вашем бизнесе!</span>
+        </div>
+        <div class="persons__item">
+            <img src="./img/second_persons.png" alt="" class="persons__photo">
+            <span class="persons__item-name">Дмитрий</span>
+            <span class="persons__item-desctription">
+                SEO-специалист с опытом работы более 7 лет. Преподает в IT-школе более 5 лет. Имеет 200 удачных кейсов по всему миру! Обладает 3 иностранными языками и хорошим чувством юмора!
+            </span>
+        </div>
+        <div class="persons__item">
+            <img src="./img/third_persons.png" alt="" class="persons__photo">
+            <span class="persons__item-name">Екатерина</span>
+
+            <span class="persons__item-desctription">
+                2d-artist, иллюстратор и графический дизайнер. Имеет диплом ведущей IT-компании Украины, опыт работы более 3 лет. Рисует от компьютерных игр до обычных эмблем компаний. Воплотит ваши дизайнерские мечты в реальность.
+            </span>
+        </div>
+        <div class="persons__item">
+            <img src="./img/fourth_persons.png" alt="" class="persons__photo">
+            <span class="persons__item-name">Константин</span>
+            <span class="persons__item-desctription">
+                Сертифицированный менеджер по контекстной рекламе с опытом работы более 2 лет. Досконально владеет английским языком. Анализирует и составляет максимально эффективную стратегию рекламы для Вашего бизнеса.
+            </span>
+        </div>
+        <div class="persons__item">
+            <img src="./img/fifth_persos.png" alt="" class="persons__photo" style="    border-radius: 50%;
+    box-shadow: 5px 2px 2px rgb(214, 214, 214);">
+            <span class="persons__item-name">Дмитрий</span>
+            <span class="persons__item-desctription">
+            В продажах более 2 лет, очень обаятелен и приятен в общении. Знает, что именно нужно для улучшения Вашего бизнеса. </span>
+        </div>
+    </div>
+</section>
+<section class="cases" id="case">
+    <span class="cases__title">НАШИ КЕЙСЫ</span>
+    <div class="cases__slider-block">
+        <div  class="slider__wrapper" style="">
+            <div class="slider__laptop">
+                <img src="img/1.jpg" alt="">
+                <img src="img/2.jpg" alt="">
+
+            </div>
+        </div>
+    </div>
+</section>
+<section class="stats" id="stats">
+    <div class="row m-0">
+        <div class="col-12" style="display: flex;">
+            <a href="#" class="stats__header">ПОЧЕМУ МЫ?</a>
+
+        </div>
+        <div class="col-12">
+            <span class="stats__title"> ЦИФРЫ</span>
+        </div>
+        <div class="col-12">
+            <div class="stats__content">
+                <div class="row">
+                    <div class="col-sm-3 col-6">
+                        <div class="stats__content-item ">
+                            <span class="d-flex">
+
+            <span class="stats__content-item-general" data-counter="98">
+
+            </span>
+                            <span class="stats__content-item-general">%</span>
+                                                            </span>
+
+                            <span class="stats__content-item-description">
+Довольных клиентов
+            </span>
+                        </div>
+                    </div>
+                    <div class="col-sm-3  col-6">
+                        <div class="stats__content-item">
+
+            <span class="stats__content-item-general" data-counter="586">
+586
+            </span>
+                            <span class="stats__content-item-description">
+Рекламных кампаний
+            </span>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-6">
+                        <div class="stats__content-item">
+                            <span class="d-flex">
+
+            <span class="stats__content-item-general" data-counter="76">
+
+            </span>
+                                  <span class="stats__content-item-general" >
++
+            </span>
+                                                                                            </span>
+
+                            <span class="stats__content-item-description">
+Семантических ядер
+            </span>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-6">
+                        <div class="stats__content-item">
+                <span class="d-flex">
+
+            <span class="stats__content-item-general" data-counter="69">
+
+            </span>
+                                  <span class="stats__content-item-general" >
++
+            </span>
+                                                                                            </span>
+                            <span class="stats__content-item-description">
+Обслуженных сайтов
+            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<section class="about-us" id="about_us">
+    <div class="about-us__container">
+    <div class="about-us__title">
+        О НАС
+
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <div class="logo__block">
+                <img src="./img/tablet_logo.png" alt="" class="about-us__logo">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <div class="about-us__content">
+                Вы - владелец бизнеса. Но бизнес без клиентов - это хобби, верно? Вам нужны клиенты, которые будут
+                благодарить и лелеять Ваш продукт или услугу. Для этого нужно быстро и эффективно привлекать внимание
+                целевой аудитории. Но зачем сорить десятикратными суммами на найме маркетологов, программистов и
+                пиарщиков, если можно обратиться к нам за помощью. Время - деньги. Пока кто-то ищет проблемы до завтра,
+                маркетинговое агентство Gevis дает возможности уже сегодня.
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+<div class="feedback">
+    <form>
+        <input type="hidden" name="project_name" value="Site Name">
+        <input type="hidden" name="admin_email" value="serhiichunivets@mail.com">
+        <input type="hidden" name="form_subject" value="Form Subject">
+    <span class="feedback__title">ЗАПОЛНИТЕ ФОРМУ И МЫ ВАМ СРАЗУ ЖЕ ПЕРЕЗВОНИМ</span>
+    <div class="row mb-60 d-flex justify-content-center">
+        <div class="col-md-7 col-12">
+
+            <label for="name">
+                <input type="text" class="feedback__input " placeholder="ФИО" name="user_name" id="name">
+
+                <img src="img/name.png" alt="" class="labels__inputs">
+            </label>
+        </div>
+    </div>
+        <div class="row mb-85 d-flex justify-content-center">
+            <div class="col-md-7 col-12">
+                <label for="phone">
+                    <input type="text" class="feedback__input" placeholder="Номер телефона" name="user_phone" id="phone">
+
+                    <img src="img/phone.png" alt="" class="labels__inputs">
+                </label>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <button class="feedback__btn done">ОСТАВИТЬ ЗАЯВКУ</button>
+            </div>
+        </div>
+    </form>
+</div>
+<footer class="footer">
+    <div class="row">
+        <div class="col-md-6 col-4">
+            <div class="footer__info">
+                <img src="img/footer_logo.png" alt="">
+                <ul class="footer__info-list">
+                    <li class="footer__info-item">- SEO оптимизация</li>
+                    <li class="footer__info-item">- SMM продвижение</li>
+                    <li class="footer__info-item">- Контекстная реклама</li>
+                    <li class="footer__info-item">- Дизайн</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-6 col-8">
+            <div class="footer__contact">
+                <div class="footer__contact-phone">
+                    <div class="footer__contact-phone-label">
+                        <img src="img/mobile.png" alt="">
+                    </div>
+                    <div class="footer__contact-phone-numbers">
+                        <ul class="contact__list">
+                            <li class="contact__item">
+                                <a href="tel:+380972789626" class="contact__item-list">+380972789626</a>
+                            </li>
+                            <li class="contact__item">
+                                <a href="tel:+380667927809" class="contact__item-list">+380667927809</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__contact-phone">
+                    <div class="footer__contact-earth-label">
+                        <img src="img/earth.png" alt="">
+                    </div>
+                    <div class="footer__contact-phone-numbers">
+                        <ul class="contact__list">
+                            <li class="contact__item">
+                                <a href="" class="contact__item-list website" style="">geviss.com.ua</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div class="footer__socials">
+     <div class="footer__socials-labels">
+         <img src="img/list.png" class="list" style="" alt="">
+         <img src="img/instagram.png" class="instagram" style="" alt="">
+         <img src="img/facebook.png" class="facebook" style="" alt="">
+     </div>
+                <div class="footer__socials-contacts">
+                    <div class="footer__socials-contact">
+                        <a href="mailto:gevisdigitalmarketing@gmail.com" class="footer__socials-contact-email">gevisdigitalmarketing@gmail.com</a>
+                    </div>
+                    <div class="footer__socials-contact">
+                        <a href="https://www.instagram.com/gevis_ua/?hl=ru" class="footer__socials-contact-email">gevis_ua</a>
+                    </div>
+                    <div class="footer__socials-contact">
+                        <a href="https://www.facebook.com/gevisua" class="footer__socials-contact-email">@gevisua</a>
+                    </div>
+                </div>
+
+                    </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="//code.jivosite.com/widget.js" data-jv-id="FnXfwyxoJJ" async></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="vendor/slick.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
