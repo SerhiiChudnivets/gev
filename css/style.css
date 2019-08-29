@@ -1314,3 +1314,6 @@ display: block;
         margin-bottom: 32px;
     }
 }
+.slick-slide{
+    max-height: 582px;
+}
